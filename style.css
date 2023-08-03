@@ -28,7 +28,9 @@
   content: '';
   background-size: cover;
   background-position: center;
-  background-image: url('ss.png');
+  background-image: url('/assets/ss.png');
+  background-attachment: fixed;
+
   position: absolute;
   top: -3px;
   bottom: -3px;
