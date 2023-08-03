@@ -1,7 +1,7 @@
+body::-webkit-scrollbar {
+  display: none;
+
+
 .font-frank {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.backdrop-invert {
-  mix-blend-mode: difference;
 }
