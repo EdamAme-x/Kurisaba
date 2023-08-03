@@ -1,0 +1,59 @@
+.orange-bg {
+  background-color: #ffaa5c;
+}
+
+.red-border {
+  border-color: #ff3838;
+}
+
+.yellow-border {
+  border-color: #fde047;
+}
+
+.green-border {
+  border-color: #34d399;
+}
+
+.blue-border {
+  border-color: #3b82f6;
+}
+
+.header-bg {
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+}
+.header-bg::before {
+  content: '';
+  background-size: cover;
+  background-position: center;
+  background-image: url('ss.png');
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+/* 新しいスタイルを追加 */
+.logo-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 48px;
+}
+
+.slogan-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+}
+
+.owner {
+  border-radius: 50%;
+  /* 角丸半径を50%にする(=円形にする) */
+  width: 180px;
+  /* ※縦横を同値に */
+  height: 180px;
+  /* ※縦横を同値に */
+}
