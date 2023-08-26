@@ -5,6 +5,7 @@ export default function Header() {
         <div
           class="flex bg-header w-full fixed z-[100] top-0 left-0 text-sm sm:text-2xl font-medium text-white items-center justify-center z-[999]"
           style={{ background: "rgba(0, 0, 0, 0.5)" }}
+          id={"h"}
         >
           <a class=" mr-2 rounded-lg p-4 mt-1 opacity-100" href="/">
             Home
@@ -35,6 +36,16 @@ export default function Header() {
           </a>
         </div>
       </header>
+      <style scoped>
+        {
+          `
+            #h > a:hover {
+              text-shadow: 0 0 5px #fff;
+              transition: 0.3s text-shadow;
+            }
+          `
+        }
+      </style>
     </>
   );
 }
